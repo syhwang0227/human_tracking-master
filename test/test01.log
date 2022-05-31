@@ -1,0 +1,23 @@
+2022-01-25 18:15:53,139:ERROR:Traceback (most recent call last):
+  File "mulP_dt_mulP_trk_err.py", line 174, in <module>
+    bbox_imgs = cv2.cvtColor(bbox_imgs, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.5.4-dev) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+
+2022-01-25 18:16:48,139:ERROR:Traceback (most recent call last):
+  File "mulP_dt_mulP_trk_err.py", line 174, in <module>
+    bbox_crop = cv2.cvtColor(bbox_imgs, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.5.4-dev) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+
+2022-01-25 18:19:09,378:ERROR:Traceback (most recent call last):
+  File "mulP_dt_mulP_trk_err.py", line 175, in <module>
+    bbox_cropflags.writeable = False
+NameError: name 'bbox_cropflags' is not defined
+
